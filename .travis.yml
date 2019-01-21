@@ -4,9 +4,11 @@ matrix:
   include:
   #- dist: xenial
   #  go: "1.11"
+  #  node_js: "10.15"
   #- os: osx
   #  go: "1.11"
   #  env: PATH="/usr/local/opt/llvm/bin:$PATH"
+  #  node_js: "10.15"
 
 addons:
   apt:
@@ -18,6 +20,7 @@ addons:
     - llvm-7-dev
     - clang-7
     - libclang-7-dev
+    - lld-7
     - gcc-arm-linux-gnueabi
     - binutils-arm-none-eabi
     - libc6-dev-armel-cross
