@@ -23,9 +23,9 @@ import (
 
 var commands = map[string]string{
 	"ar":      "llvm-ar",
-	"clang":   "clang-7",
-	"ld.lld":  "ld.lld-7",
-	"wasm-ld": "wasm-ld-7",
+	"clang":   "clang-8",
+	"ld.lld":  "ld.lld-8",
+	"wasm-ld": "wasm-ld-8",
 }
 
 // commandError is an error type to wrap os/exec.Command errors. This provides
