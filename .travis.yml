@@ -2,11 +2,11 @@ language: go
 
 matrix:
   include:
-  - dist: xenial
-    go: "1.11"
-  - os: osx
-    go: "1.11"
-    env: PATH="/usr/local/opt/llvm/bin:$PATH"
+  #- dist: xenial
+  #  go: "1.11"
+  #- os: osx
+  #  go: "1.11"
+  #  env: PATH="/usr/local/opt/llvm/bin:$PATH"
 
 addons:
   apt:
