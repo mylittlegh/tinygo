@@ -4,6 +4,8 @@ matrix:
   include:
   - dist: xenial
     go: "1.11"
+  - dist: xenial
+    go: "1.12"
   - os: osx
     go: "1.11"
     env: PATH="/usr/local/opt/llvm/bin:$PATH"
